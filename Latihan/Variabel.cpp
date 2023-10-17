@@ -12,5 +12,5 @@ int main(){
     cout<<"\nNPM \t: "<<npm<<endl;
     cout<<"\nKelas \t: "<<kelas<<endl;
     cout<<"\nCita - Cita : "<<pekerjaan<<endl;
-    cout<<"\nMotivasi Masuk Informatika : "<<motivasi<<endl;
+    cout<<"\nMotivasi Masuk Informatika : "<<motivasi<<endl; 
 }
