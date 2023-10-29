@@ -25,6 +25,4 @@ int main(){
     cout<<"\nPenukaran Variabel firstValue dan secondValue tanpa Variabel Tambahan"<<endl;
     cout<<"Nilai firstValue = "<<firstValue<<endl;
     cout<<"Nilai secondValue = "<<secondValue<<endl;
-
-
 }
