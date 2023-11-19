@@ -1,7 +1,14 @@
 #include <iostream>
 using namespace std;
 
+void bilangan();
+
 int main()
+{
+    bilangan();
+}
+
+void bilangan()
 {
     int batas, bilangan, jumlah;
 

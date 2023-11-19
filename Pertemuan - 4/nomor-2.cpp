@@ -1,23 +1,29 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    int n;
+void segitiga();
 
-    cout<<"Input Tinggi Segitiga: ";
-    cin>>n;
+int main()
+{
+    segitiga();
+}
+
+void segitiga()
+{
+    int n;
+    cout << "Input Tinggi Segitiga: ";
+    cin >> n;
 
     for (int i = 1; i <= n; i++)
     {
         for (int j = n; j > i; j--)
         {
-            cout<<" ";
+            cout << " ";
         }
-        for (int k = 1; k <= (2*i - 1); k++)
+        for (int k = 1; k <= (2 * i - 1); k++)
         {
-            cout<<"*";
+            cout << "*";
         }
-        cout<<endl;
+        cout << endl;
     }
- return 0;   
 }
