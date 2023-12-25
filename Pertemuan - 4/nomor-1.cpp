@@ -10,7 +10,7 @@ int main()
 
 void bilangan()
 {
-    int batas, bilangan, jumlah;
+    int batas, bilangan, jumlah, hasil;
 
     cout << "Pilih Bilangan" << endl;
     cout << "1. Bilangan Ganjil" << endl;
